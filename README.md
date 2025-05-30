@@ -28,4 +28,38 @@ This project simulates a federated learning environment where two medical datase
 ---
 
 ## 📁 File Structure
+federated-medical-diagnosis/
+├── pbl_final.ipynb # Main notebook
+├── breast-cancer.csv # Dataset 1
+├── cardio_train.csv # Dataset 2
+
+---
+
+## 📈 Results
+
+| Dataset        | Accuracy  |
+|----------------|-----------|
+| Breast Cancer  | ~96%      |
+| Cardiovascular | ~72%      |
+
+---
+
+## 🔐 Privacy Perspective
+
+Although no real federated server is used, the project structure ensures:
+- No raw data sharing
+- Simulated client separation
+- Model evaluation under a federated paradigm
+
+---
+
+## 📚 Future Scope
+
+- Implement true FL using Flower or PySyft
+- Integrate Differential Privacy or Homomorphic Encryption
+- Expand to multi-task and real-time clinical environments
+
+---
+
+
 
